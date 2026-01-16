@@ -14,8 +14,19 @@ ul{
 }
 
 .container{
-    max-width:1200px;
-    margin:0px auto;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.section-header-one{
+    background-color: #1F2937;
+}
+
+.section-three{
+    background-color: #E5e7EB;
+}
+
+.section-footer{
+    background-color: #1F2937;
 }
 
 .logo{
@@ -32,6 +43,8 @@ ul{
 .header, .first-section{
     background-color: #1F2937;
     color: #F9FAF8;
+    max-width:1200px;
+    margin:0px auto;
 }
 
 .header{
