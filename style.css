@@ -16,9 +16,9 @@ ul{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0px auto;
-    padding: 16px;
+    padding: 24px;
 }
 
 .section-header-one{
@@ -36,11 +36,11 @@ ul{
 .logo{
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .header-links{
-    font-size: 18px;
+    font-size: 17px;
     color: #E5e7EB;
 }
 
@@ -55,7 +55,16 @@ ul{
 }
 
 .first-section{
+    padding: 65px 0px;
     display:flex;
+    justify-content: space-evenly;
+    gap: 18px;
+}
+
+.left-textbox{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
 }
 
 .title{
@@ -70,15 +79,24 @@ ul{
 }
 
 .big-button{
+    height: 40px;
+    width: 140px;
     background-color: #3882F6;
     border: 0px;
     border-radius: 8px;
     color:#F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .placeholder{
-    background-color: grey;
+    background-color: slategray;
     color:#E5e7EB;
+    width: 500px;
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .information{
