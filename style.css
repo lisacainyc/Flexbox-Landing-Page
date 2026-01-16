@@ -132,9 +132,18 @@ ul{
     margin-top: 12px;
     text-align:center;
 }
+
 .item{
     color: #636363;
     max-width: 150px;
+}
+
+.third-section{
+    width: 75%;
+    margin: 100px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .quote{
@@ -147,6 +156,7 @@ ul{
 .author{
     font-size: 24px;
     font-weight: 600;
+    text-align: right;
 }
 
 .action{
