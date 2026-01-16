@@ -8,11 +8,9 @@ body{
 }
 
 ul{
-    display:flex;
     margin: 0px;
     padding: 0px;
     list-style-type:none;
-    gap: 16px;
 }
 
 .container{
@@ -40,6 +38,8 @@ ul{
 }
 
 .header-links{
+    display:flex;
+    gap: 16px;
     font-size: 17px;
     color: #E5e7EB;
 }
@@ -99,10 +99,26 @@ ul{
     align-items: center;
 }
 
+.second-section{
+    display:flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    padding: 16px 0px 64px 0px;
+}
+
+.items-list{
+    width: 80%;
+    display:flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
 .information{
     font-size: 36px;
     color: #1F2937;
-    font-weight: 900px;
+    font-weight: 900;
+    margin-bottom:32px;
 }
 
 .item-square{
@@ -112,8 +128,13 @@ ul{
     border-radius:20px;
 }
 
+.item-text{
+    margin-top: 12px;
+    text-align:center;
+}
 .item{
     color: #636363;
+    max-width: 150px;
 }
 
 .quote{
