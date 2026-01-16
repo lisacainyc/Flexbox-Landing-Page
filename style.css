@@ -3,6 +3,8 @@
 body{
     height:100vh;
     font-family: Roboto, sans-serif;
+    padding:0px;
+    margin:0px;
 }
 
 ul{
@@ -16,7 +18,9 @@ ul{
 .container{
     max-width: 1200px;
     margin: 0px auto;
+    padding: 16px;
 }
+
 .section-header-one{
     background-color: #1F2937;
 }
@@ -43,8 +47,6 @@ ul{
 .header, .first-section{
     background-color: #1F2937;
     color: #F9FAF8;
-    max-width:1200px;
-    margin:0px auto;
 }
 
 .header{
@@ -56,5 +58,80 @@ ul{
     display:flex;
 }
 
+.title{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtext{
+    color:#E5e7EB;
+    font-size: 18px;
+}
+
+.big-button{
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 8px;
+    color:#F9FAF8;
+}
+
+.placeholder{
+    background-color: grey;
+    color:#E5e7EB;
+}
+
 .information{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+}
+
+.item-square{
+    height:150px;
+    width:150px;
+    border: 4px solid #3882F6;
+    border-radius:20px;
+}
+
+.item{
+    color: #636363;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:300;
+    font-style:italic;
+}
+
+.author{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.action{
+    background-color: #3882F6;
+    border-radius: 20px;
+}
+
+.call{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.cta{
+    color: #F9FAF8;
+}
+
+.small-button{
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background-color:#3882F6;
+    color:#F9FAF8
+}
+
+.footer{
+    color:#F9FAF8;
 }
